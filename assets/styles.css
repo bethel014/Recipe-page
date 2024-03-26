@@ -49,7 +49,7 @@ body {
 }
 h1,
 h2,
-h3 {
+.duration {
   font-family: "Young Serif", serif;
   font-weight: 600;
   text-transform: capitalize;
@@ -59,11 +59,12 @@ h1 {
   color: #323232;
   font-weight: 400;
 }
-h3 {
+.duration {
   font-family: "Outfit", sans-serif;
   padding: 15px 0 0px 20px;
   color: #c67499;
   margin: 10px 0 0 0;
+  font-size: 20px;
 }
 h2,
 .value,
