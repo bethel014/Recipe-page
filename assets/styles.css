@@ -37,6 +37,10 @@
   }
 }
 
+:root {
+  --prim-border-radius: 10px;
+}
+
 body {
   background-color: #f0e5db;
   font-family: "Outfit", sans-serif;
@@ -81,8 +85,8 @@ main {
   font-size: 15px;
 }
 img,
-main {
-  border-radius: 10px;
+.preparation main {
+  border-radius: var(--prim-border-radius);
 }
 img {
   margin-top: 20px;
@@ -95,7 +99,6 @@ main ul li {
 
 .preparation {
   background-color: #fff7fc;
-  border-radius: 10px;
   padding-bottom: 5px;
 }
 .nutrients {
