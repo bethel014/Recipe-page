@@ -1,20 +1,114 @@
+@media (max-width: 415px) {
+  .image-container {
+    width: 100% !important;
+    max-width: none;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .image-container img {
+    width: 100% !important;
+    display: block;
+    margin: 0 !important;
+    border-radius: 0 !important;
+  }
+  main {
+    border-radius: 0 !important;
+    padding: 0 !important;
+  }
+  section,
+  h1,
+  .omelette {
+    padding: 0 20px 15px;
+  }
+  h1 {
+    width: 70%;
+    line-height: 1.3em;
+    margin-bottom: 5px !important;
+  }
+  h2 {
+    margin-top: 35px;
+  }
+  p {
+    font-size: 16px !important;
+    margin-top: 5px !important;
+  }
+  .preparation {
+    margin: 0 25px;
+  }
+}
+
 body {
-  background-color: rgb(252, 220, 220);
+  background-color: #f0e5db;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+h1,
+h2,
+h3 {
+  font-family: "Young Serif", serif;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+h1 {
+  color: #323232;
+  font-weight: 400;
+}
+h3 {
+  font-family: "Outfit", sans-serif;
+  padding: 15px 0 0px 20px;
+  color: #c67499;
+  margin: 10px 0 0 0;
+}
+h2,
+.value,
+ol li::marker {
+  color: #884741;
+}
+ol li::marker,
+.value p {
+  font-weight: bold;
 }
 
 main {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
-  border: 1px solid white;
-  border-radius: 5px;
-  background-color: white;
-  padding: 0 20px;
+  background-color: #fff;
+  padding: 0 20px 15px;
+  color: #514d4b;
+  font-size: 15px;
+}
+img,
+main {
+  border-radius: 10px;
 }
 img {
-  border-radius: 5px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
-p {
-  font-size: 16px;
+
+main ul li {
+  padding-bottom: 3px;
+  margin-top: 5px;
+}
+
+.preparation {
+  background-color: #fff7fc;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+.nutrients {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.name p,
+.value p {
+  border-bottom: 1px solid #8b8988;
+}
+.recipe h2 {
+  margin-top: 25px;
+}
+.name p {
+  padding-left: 20px;
 }
