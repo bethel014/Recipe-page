@@ -38,7 +38,7 @@
 }
 
 :root {
-  --prim-border-radius: 10px;
+  --border-radius: 10px;
 }
 
 body {
@@ -85,8 +85,9 @@ main {
   font-size: 15px;
 }
 img,
-.preparation main {
-  border-radius: var(--prim-border-radius);
+.preparation,
+main {
+  border-radius: var(--border-radius);
 }
 img {
   margin-top: 20px;
